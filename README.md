@@ -1,139 +1,157 @@
-# 🧪 Hotel Sea Pearl Website - Selenium Automation Testing
+# 🧪 Hotel Sea Pearl - Selenium Automation Testing Project
 
 ## 📌 Project Overview
 
-This repository contains an end-to-end **Automation Testing** project developed for the **Hotel Sea Pearl Website** using **Java, Selenium WebDriver, and TestNG**. The automation suite validates key website functionalities, UI elements, navigation, and user interactions to ensure application quality and reliability.
+This repository contains a **Web Automation Testing project** developed for the **Hotel Sea Pearl Website** using **Java, Selenium WebDriver, and TestNG**.
+
+The project focuses on automating important website functionalities, validating UI elements, performing navigation testing, handling browser interactions, and capturing screenshots during test execution.
 
 ---
 
 ## 🌐 Application Under Test
 
-**Website:** https://www.hotelseapearl.in/Seapearl/home.html
+**Website:**  
+https://www.hotelseapearl.in/Seapearl/home.html
 
 ---
 
 ## 🎯 Project Objectives
 
-- Automate repetitive web testing tasks.
-- Verify website navigation and functionality.
-- Validate UI components and user interactions.
-- Capture screenshots during test execution.
-- Execute automated test cases using TestNG.
+- Automate website testing scenarios using Selenium WebDriver.
+- Validate website navigation and user interactions.
+- Verify UI elements and functional behavior.
+- Capture screenshots for test evidence.
+- Execute automated test cases using the TestNG framework.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies Used
 
-- **Programming Language:** Java
-- **Automation Tool:** Selenium WebDriver
-- **Testing Framework:** TestNG
-- **IDE:** Eclipse
-- **Browser:** Google Chrome
-- **Build Tool:** Java Project (Non-Maven)
+| Tool / Technology | Purpose |
+|---|---|
+| Java | Programming Language |
+| Selenium WebDriver | Web Automation |
+| TestNG | Test Execution Framework |
+| Eclipse IDE | Development Environment |
+| Google Chrome | Browser Testing |
 
 ---
 
-## ✅ Features Automated
+## ✅ Automation Scenarios Covered
 
-- Browser Launch & Close
-- Website Navigation
-- Page Title & URL Validation
-- Element Screenshot Capture
-- Full Page Screenshot Capture
-- Menu Navigation
-- Image Slider Validation
-- Social Media Link Verification
-- Multiple Window Handling
-- Alert Handling using Robot Class
-- Keyboard Actions
-- Form Validation
-- Newsletter Subscription Validation
-- Footer Link Verification
-- Back Navigation Testing
+### 🔹 Website Validation
+- Open website URL
+- Verify page title
+- Verify current URL
+- Browser maximize functionality
+
+### 🔹 Screenshot Testing
+- Capture element screenshot
+- Capture full-page screenshot
+- Store screenshots as test evidence
+
+### 🔹 Navigation Testing
+- Header menu navigation
+- Footer link validation
+- Internal page navigation
+- Browser back navigation
+
+### 🔹 Social Media Testing
+Validated social media links:
+
+- Facebook
+- Twitter
+- Instagram
+- LinkedIn
+- Pinterest
+
+### 🔹 Window Handling
+- Handle multiple browser windows/tabs
+- Switch between parent and child windows
+
+### 🔹 UI Interaction Testing
+- Image slider validation
+- Button click testing
+- Keyboard actions
+- Form interaction
+
+### 🔹 Alert & Popup Handling
+- Browser popup handling
+- Keyboard-based popup actions using Robot Class
+
+### 🔹 Newsletter Testing
+- Email field validation
+- Subscribe button functionality
 
 ---
 
 ## 📂 Project Structure
 
-```text
-Selenium/
+```
+Hotel-SeaPearl-Selenium-Automation
 │
-├── src/
-│   └── TestNG/
+├── src
+│   └── TestNG
 │       └── hotelseapearl_TestNG.java
 │
-├── SCREENSHOT/
+├── SCREENSHOT
+│   └── Test execution screenshots
 │
 ├── testng.xml
 │
-├── Test Execution Reports
-│
-├── .classpath
-└── .project
+└── README.md
 ```
 
 ---
 
-## 📋 Test Scenarios Covered
+## ▶️ How to Run the Project
 
-- Website Launch Verification
-- Header Navigation Testing
-- Home Page Validation
-- Image Carousel Testing
-- Social Media Link Testing
-- Window Switching
-- Screenshot Capture
-- Contact Information Validation
-- Newsletter Subscription
-- Footer Navigation
-- Browser Navigation
-- UI Element Verification
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone this repository.
-2. Import the project into Eclipse.
-3. Configure Selenium and TestNG libraries.
-4. Launch Google Chrome.
-5. Run the TestNG test class or `testng.xml`.
-6. Review the generated execution reports.
+1. Clone or download this repository.
+2. Open the project in Eclipse IDE.
+3. Configure Selenium WebDriver libraries.
+4. Install TestNG plugin in Eclipse.
+5. Open `testng.xml`.
+6. Run the TestNG suite.
+7. Check execution results and screenshots.
 
 ---
 
 ## 📸 Test Evidence
 
-The project includes screenshots captured during execution to verify successful automation and application behavior.
+Screenshots are captured during automation execution to verify:
+
+- Successful page loading
+- UI element validation
+- Test execution behavior
+- Application responses
 
 ---
 
 ## 💡 Skills Demonstrated
 
-- Selenium WebDriver
+- Selenium WebDriver Automation
 - Java Programming
 - TestNG Framework
-- Automation Testing
-- UI Automation
-- Functional Testing
+- Web Element Locators
+- XPath Usage
 - Browser Automation
-- Screenshot Capture
 - Window Handling
 - Keyboard Actions
-- Exception Handling
-- Test Execution
-- Debugging
+- Screenshot Capture
+- Functional Testing
+- UI Testing
+- Test Execution & Debugging
 
 ---
 
-## 📈 Future Improvements
+## 🚀 Future Enhancements
 
 - Implement Page Object Model (POM)
-- Integrate Maven for dependency management
 - Replace Thread.sleep() with Explicit Waits
-- Generate Extent Reports
-- Add Cross-Browser Testing
-- Integrate with Jenkins for Continuous Integration
+- Add TestNG Assertions
+- Generate HTML/Extent Reports
+- Add Cross Browser Testing
+- Integrate Maven for dependency management
 
 ---
 
@@ -145,6 +163,6 @@ Aspiring Software Test Engineer with hands-on experience in Manual Testing and S
 
 ---
 
-## ⭐ About This Repository
+## ⭐ About This Project
 
-This project is part of my Software Testing portfolio and demonstrates my ability to design, develop, and execute automated UI test scripts using Selenium WebDriver and TestNG while following automation testing best practices.
+This project is part of my Software Testing portfolio and demonstrates practical experience in designing and executing automated test scripts using Selenium WebDriver and TestNG for a real-world web application.

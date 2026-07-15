@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hotel sea pearl" verbose="1">
+  <test name="Hotel sea pearl">
+    <classes>
+       <class name="TestNG.hotelseapearl_TestNG"/>
+																				       
+    </classes>
+  </test>
+</suite>	
